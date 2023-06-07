@@ -1,0 +1,33 @@
+
+
+/* Selector de Etiqueta */
+body{
+    background-color: black;
+    color: white;
+}
+
+img{
+    width: 500px;
+    height:300px ;
+    object-fit: cover;
+}
+
+/* Selector de clase */
+
+.azul{
+    background-color: blue;
+}
+
+/* Selector de id */
+#tituloSegundo{
+    font-size: 100px;
+    color:red
+}
+#texto{
+    color: yellow;
+}
+#bandejaPaisa{
+    border-radius: 25px;
+}
+
+
