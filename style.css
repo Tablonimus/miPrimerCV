@@ -1,33 +1,21 @@
-
-
-/* Selector de Etiqueta */
-body{
-    background-color: black;
-    color: white;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #212125;
 }
 
-img{
-    width: 500px;
-    height:300px ;
-    object-fit: cover;
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: 48px;
 }
 
-/* Selector de clase */
+a {
+  color: white;
 
-.azul{
-    background-color: blue;
 }
-
-/* Selector de id */
-#tituloSegundo{
-    font-size: 100px;
-    color:red
-}
-#texto{
-    color: yellow;
-}
-#bandejaPaisa{
-    border-radius: 25px;
-}
-
-
